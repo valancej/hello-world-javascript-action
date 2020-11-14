@@ -4,8 +4,6 @@ jobs:
   anchore_job:
     runs-on: ubuntu-latest
     name: Anchore scan directory
-    defaults:
-      working-directory: .
     steps:
     - name: Directory listing
       run: ls -la
