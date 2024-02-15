@@ -6,7 +6,7 @@ jobs:
     name: Anchore scan directory
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
     - name: Scan current project
       id: scan
       uses: anchore/scan-action@v2
